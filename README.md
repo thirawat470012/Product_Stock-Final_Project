@@ -4,9 +4,9 @@
 
 ชื่อผู้พัฒนาโปรแกรม : นายถิรวัฒน์ โชติธนกิจไพศาล 653450090-6
 
- Class diagram
+Class diagram
  
- classDiagram
+classDiagram
 ResourceInfo --|> Resource 
 <<Interface>> ResourceInfo
 Resource --|> ResourceInfo
