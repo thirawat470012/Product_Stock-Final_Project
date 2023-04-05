@@ -11,5 +11,19 @@
 นายถิรวัฒน์ โชติธนกิจไพศาล 653450090-6
 
 # classDiagram
+classDiagram
+ResourceInfo --|> Resource 
+<<Interface>> ResourceInfo
+Resource --|> ResourceInfo
+note for Resource "Add Product" 
+ClassProdouct --> Resource
+ClassProdouct : str name
+ClassProdouct : str category
+ClassProdouct : int Number
+ClassProdouct --|> ResourceInfo
+ResourceInfo : DataGirds()
+ResourceInfo : +NewItem()
+
+
 
  
