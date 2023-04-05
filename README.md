@@ -12,17 +12,8 @@
 
 # classDiagram
 classDiagram
-ResourceInfo --|> Resource 
-<<Interface>> ResourceInfo
-Resource --|> ResourceInfo
-note for Resource "Add Product" 
-ClassProdouct --> Resource
-ClassProdouct : str name
-ClassProdouct : str category
-ClassProdouct : int Number
-ClassProdouct --|> ResourceInfo
-ResourceInfo : DataGirds()
-ResourceInfo : +NewItem()
+Class01 <|-- AveryLongClass : Cool
+
 
 
 
